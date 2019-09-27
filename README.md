@@ -1,68 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal project created by Vergil Hsu
 
-## Available Scripts
+## Project objectives
+I play with a DJ Controller as a hobby, mixing music for fun. (SoundCloud plug, listen to me!: https://soundcloud.com/aerialkebab). In order to mix, I need the files actually sitting in my hard drive. Obtaining music to mix can sometimes be a hassle, as I get my new music mainly through Spotify, and put it in a Spotify playlist. I then later look at the playlist when I have time, then download the files one by one. I thought of creating a project, that would be a desktop executable that would follow Spotify playlists, search those song names on YouTube, then download the first result from YouTube.
 
-In the project directory, you can run:
+### Technologies used
+Markup: *React  
+        *Electron
+        *Spotify web API https://developer.spotify.com/documentation/web-api/quick-start/
+        *Youtube-mp3-downloader module https://www.npmjs.com/package/youtube-mp3-downloader
 
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Future additions
+Unfortunately searching YouTube directly through the song name supplied by the "song name + (audio)" can sometimes prove faulty. I want to implement a system that allows users to open up the original YouTube search, scroll through the results (within the UI) and select the right song from that. In the far future I would possibly create a database through these selection amounts on each video, and download the optimal video from that result.
