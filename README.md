@@ -1,5 +1,7 @@
 Personal project created by Vergil Hsu
 
+### Project on Hiatus - working on Python version first. Check out: https://github.com/AerialKebab/s2tydl_py
+
 ## Project objectives
 I play with a DJ Controller as a hobby, mixing music for fun. (SoundCloud plug, listen to me!: https://soundcloud.com/aerialkebab). In order to mix, I need the files actually sitting in my hard drive. Obtaining music to mix can sometimes be a hassle, as I get my new music mainly through Spotify, and put it in a Spotify playlist. I then later look at the playlist when I have time, then download the files one by one. I thought of creating a project, that would be a desktop executable that would follow Spotify playlists, search those song names on YouTube, then download the first result from YouTube.
 
